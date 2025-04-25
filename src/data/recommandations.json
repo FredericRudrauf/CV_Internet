@@ -1,0 +1,17 @@
+[
+  {
+    "entreprise": "BNP Paribas Leasing Solutions",
+    "description": "Lettre de recommandation suite à mon emploi en tant que comptable dans le secteur bancaire au sein du groupe BNP Paribas",
+    "fichier": "docs/BNP_Paribas.pdf"
+  },
+  {
+    "entreprise": "Exafi Conseil, Audit & Expertise",
+    "description": "Lettre de recommandation suite à mon emploi en tant que collaborateur comptable en cabinet comptable pour une clientèle variée sur Paris",
+    "fichier": "docs/Exafi.pdf"
+  },
+  {
+    "entreprise": "Stamp",
+    "description": "Lettre de recommandation suite à mon emploi en tant que comptable unique au sein d'une PME dans un environnement d'import/export avec l'Asie",
+    "fichier": "docs/Stamp.pdf"
+  }
+]

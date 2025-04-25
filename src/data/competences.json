@@ -1,0 +1,41 @@
+{
+  "informatique": {
+    "maintenance_support": [
+      "Support utilisateur niveau 2/3 (Windows, Mac, Linux)",
+      "Installation et maintenance de postes de travail",
+      "Gestion des profils (Active Directory)",
+      "Sauvegarde et restauration de données"
+    ],
+    "developpement": [
+      "Langages : .Net (VB), Windev, Powershell, Python, PHP, JS, HTML/CSS",
+      "Création de scripts et automatisations",
+      "Développement d’applications internes (Moodle, intranet)"
+    ],
+    "bases_donnees": [
+      "SQL, PostgreSQL, MySQL, Oracle, Interbase, Access"
+    ],
+    "reseau_administration": [
+      "Active Directory (profils utilisateurs, politiques), Ms Endpoint, Microsoft Exchange",
+      "Routeurs Cisco, administration réseau NT/RedHat"
+    ]
+  },
+  "comptabilite": {
+    "types": [
+      "Comptabilité générale et analytique",
+      "Comptabilité financière, rapports SURFI pour la Banque de France",
+      "Consolidation, reportings, tableaux de bord"
+    ],
+    "fiscalite": [
+      "TVA",
+      "DEB",
+      "Liasse fiscale",
+      "Impôts personnels"
+    ],
+    "secteurs": [
+      "Cabinet comptable, banque, transport, hôtellerie-restauration, commerce, services"
+    ],
+    "entreprises": [
+      "PME, groupes internationaux, filiales, société mère"
+    ]
+  }
+}
