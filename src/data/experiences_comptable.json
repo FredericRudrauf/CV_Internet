@@ -2,8 +2,11 @@
     {
       "poste": "Collaborateur comptable",
       "entreprise": "Wagner & Associés",
+      "lieu": "Colmar",
+      "contrat": "CDI",
       "debut": "2018-02",
       "fin": "2021-07",
+      "competences": ["Comptabilité générale", "Fiscalité", "Reporting"],
       "logo": "img/Wagner.jpg",
       "lien": "https://wagnerassocies.fr/",
       "description": "Sous la responsabilité d’experts comptables associés, responsable de 40 sociétés (jusqu’à 20 salariés) de tous les secteurs d’activités (artisanat, commerce, services, bâtiment), en charge de : - Saisir toutes les opérations comptables – Gérer la fiscalité - Réaliser les tableaux de bord - Réviser les comptes, établir les comptes annuels et la liasse fiscale."
@@ -11,8 +14,11 @@
     {
       "poste": "Collaborateur comptable",
       "entreprise": "RSM Est",
+      "lieu": "Colmar",
+      "contrat": "CDI",
       "debut": "2017-10",
       "fin": "2018-02",
+      "competences": ["Comptabilité générale", "Fiscalité", "Reporting"],
       "logo": "img/RSM.webp",
       "lien": "https://www.rsm.global/france/fr/a-propos-de-rsm/nous-contacter/nos-bureaux-rsm-france/colmar",
       "description": "Collaborateur en cabinet comptable, en charge du calcul et de la déclaration de la TVA pour une soixantaine de petites et moyennes entreprises (-50 salariés)."
@@ -20,17 +26,23 @@
     {
       "poste": "Comptable banque",
       "entreprise": "Crédit Agricole Alsace Vosges",
+      "lieu": "Strasbourg",
+      "contrat": "CDD",
       "debut": "2017-03",
       "fin": "2017-09",
+      "competences": ["Comptabilité financière", "Gestion multidevises", "Reporting"],
       "logo": "img/CA.svg",
       "lien": "https://www.credit-agricole.fr/ca-alsace-vosges/particulier.html",
       "description": "Comptable banque au sein du service des Affaires Internationales. en charge de la résolution de problématiques comptables sur opérations en devises (écarts de changes, calculs de commissions erronés, etc ...)."
     },
     {
-      "poste": "Comptable",
+      "poste": "Comptable général",
       "entreprise": "LK - Voyages Lucien Kunegel",
+      "lieu": "Colmar",
+      "contrat": "CDI",
       "debut": "2014-07",
       "fin": "2017-01",
+      "competences": ["Comptabilité générale", "Fiscalité", "Reporting", "Trésorerie"],
       "logo": "img/LK.png",
       "lien": "https://www.l-k.fr/",
       "description": "Rattaché au Directeur Général, sur un périmètre société mère et filiales (jusqu’à 3), en interface avec la Direction commerciale, la Production, la Direction Informatique, les commissaires aux comptes, l’administration fiscale, les banques, les fournisseurs et les clients, en charge de : - Effectuer les reportings financiers pour le comité de direction - Réaliser les différentes phases de consolidation - Préparer les écritures d’inventaires pour les arrêtés annuels - Gérer la fiscalité (taxes, crédit d’impôt et impôt sur les sociétés) et les déclarations sociales - Etablir les bulletins de paie."
@@ -38,8 +50,11 @@
     {
       "poste": "Comptable unique",
       "entreprise": "STAMP",
+      "lieu": "Illkirch-Graffenstaden",
+      "contrat": "CDI",
       "debut": "2013-07",
       "fin": "2014-08",
+      "competences": ["Comptabilité générale", "Fiscalité", "Reporting", "Trésorerie"],
       "logo": "img/Stamp.png",
       "lien": "https://www.stamp-france.fr/",
       "description": "Comptable unique au sein d'une PME d'import-export de jouets roulants sous licence (avec gestion de royalties), consolidation, reportings, déclarations fiscales, arrêtés mensuels et annuels."
@@ -47,8 +62,11 @@
     {
       "poste": "Comptable financier",
       "entreprise": "BNP Paribas Leasing Solutions",
+      "lieu": "Paris - La Défense",
+      "contrat": "CDI",
       "debut": "2011-01",
       "fin": "2013-06",
+      "competences": ["Comptabilité financière", "Fiscalité", "Reporting", "Consolidation", "SURFI"],
       "logo": "img/BNP.svg",
       "lien": "https://leasingsolutions.bnpparibas.fr/",
       "description": "Comptable banque au sein d'une filiale de service de reporting en charge de la consolidation, la fiscalité et les liasses fiscales pour la Banque de France et le groupe BNP PARIBAS."
@@ -56,8 +74,11 @@
     {
       "poste": "Collaborateur comptable",
       "entreprise": "EXAFI Conseil, Audit et Expertise (n'existe plus)",
+      "lieu": "Paris",
+      "contrat": "CDI",
       "debut": "2007-07",
       "fin": "2010-12",
+      "competences": ["Comptabilité générale", "Fiscalité", "Reporting"],
       "logo": "img/Exafi.jpg",
       "lien": "https://entreprises.lefigaro.fr/exafi-75/entreprise-414888594",
       "description": "Collaborateur en cabinet comptable. Gestion d'une trentaine de clients, de la saisie comptable à la liasse fiscale. Reporting mensuels pour certains clients."
@@ -65,17 +86,23 @@
     {
       "poste": "Assistant contrôle de gestion",
       "entreprise": "Messier Services (Groupe SAFRAN)",
+      "lieu": "Molsheim",
+      "contrat": "CDD",
       "debut": "2007-01",
       "fin": "2007-06",
+      "competences": ["Comptabilité analytique", "Reporting"],
       "logo": "img/Safran.png",
       "lien": "https://www.safran-group.com/fr/societes/safran-landing-systems",
       "description": "Correction écritures analytiques, aide aux reporting mensuels."
     },
     {
-      "poste": "Comptable",
+      "poste": "Comptable général",
       "entreprise": "Hilton Hotels & Resorts",
+      "lieu": "Strasbourg",
+      "contrat": "CDD",
       "debut": "2006-09",
       "fin": "2006-12",
+      "competences": ["Comptabilité anglo-saxonne", "Reporting"],
       "logo": "img/Hilton.svg",
       "lien": "https://www.hilton.com/fr/hotels/sxbhitw-hilton-strasbourg/",
       "description": "Enregistrement du chiffre d'affaires journalier, contrôle et saisie des factures fournisseurs, création de fichiers avec macro VBA pour la gestion des immobilisations."

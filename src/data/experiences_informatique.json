@@ -6,7 +6,7 @@
       "contrat": "CDI",
       "debut": "2022-10",
       "fin": "en cours",
-      "competences": ["Moodle", "RedHat", "PHP", "Python", "MySQL"],
+      "competences": ["Moodle", "RedHat", "PHP", "Python", "MySQL", "Support utilisateur Niveau 2/3"],
       "logo": "img/udes.png",
       "lien": "https://www.usherbrooke.ca/",
       "description": "Support et développement de plugins Moodle, support de plateforme, maintenance serveurs RedHat. Soutien et développements Python pour le service des Bibliothèques et des Archives, divers travaux de recherches et synthèses sur les données des bibliothèques."
