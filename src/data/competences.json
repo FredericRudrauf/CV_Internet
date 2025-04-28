@@ -3,20 +3,24 @@
     "maintenance_support": [
       "Support utilisateur niveau 2/3 (Windows, Mac, Linux)",
       "Installation et maintenance de postes de travail",
-      "Gestion des profils (Active Directory)",
+      "Gestion des profils et politiques(Active Directory)",
       "Sauvegarde et restauration de données"
     ],
     "developpement": [
       "Langages : .Net (VB), Windev, Powershell, Python, PHP, JS, HTML/CSS",
       "Création de scripts et automatisations",
-      "Développement d’applications internes (Moodle, intranet)"
+      "Sites internet personnels (celui-ci, Memoterra)"
     ],
     "bases_donnees": [
       "SQL, PostgreSQL, MySQL, Oracle, Interbase, Access"
     ],
     "reseau_administration": [
-      "Active Directory (profils utilisateurs, politiques), Ms Endpoint, Microsoft Exchange",
-      "Routeurs Cisco, administration réseau NT/RedHat"
+      "Active Directory (profils utilisateurs, application de politiques), Ms Endpoint/InTune, Microsoft Exchange, Office 365 (Sharepoint)",
+      "Routeurs Cisco (configuration de routes)",
+      "Serveurs NT4, RedHat 7/8"
+    ],
+    "certification": [
+      "Certification ITIL Foundation (octobre 2023)"
     ]
   },
   "comptabilite": {
@@ -32,7 +36,7 @@
       "Impôts personnels"
     ],
     "secteurs": [
-      "Cabinet comptable, banque, transport, hôtellerie-restauration, commerce, services"
+      "Cabinet comptable, banque, transport, hôtellerie-restauration, commerce import/export, services"
     ],
     "entreprises": [
       "PME, groupes internationaux, filiales, société mère"

@@ -1,11 +1,11 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
     <div class="container-fluid">
-      <a class="navbar-brand fw-bold" href="#">Mon CV</a>
+      <router-link class="navbar-brand fw-bold" to="/presentation">CV interactif</router-link>
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <router-link class="nav-link" to="/presentation">Présentation</router-link>
-          <router-link class="nav-link" to="/formations">Formation</router-link>
+          <router-link class="nav-link" to="/formations">Formations</router-link>
           <router-link class="nav-link" to="/competences">Compétences</router-link>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">

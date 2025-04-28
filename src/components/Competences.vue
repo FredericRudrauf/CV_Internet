@@ -1,6 +1,7 @@
 <template>
     <div>
       <h3>Compétences Informatiques</h3>
+      <P></P>
       <div v-if="data">
         <h5>Maintenance & Support</h5>
         <ul><li v-for="item in data.informatique.maintenance_support" :key="item">{{ item }}</li></ul>
@@ -13,9 +14,13 @@
   
         <h5>Réseau / Administration</h5>
         <ul><li v-for="item in data.informatique.reseau_administration" :key="item">{{ item }}</li></ul>
+
+        <h5>Certifications</h5>
+        <ul><li v-for="item in data.informatique.certification" :key="item">{{ item }}</li></ul>
       </div>
   
       <h3 class="mt-4">Compétences Comptables</h3>
+      <p></p>
       <div v-if="data">
         <h5>Types de comptabilité</h5>
         <ul><li v-for="item in data.comptabilite.types" :key="item">{{ item }}</li></ul>
