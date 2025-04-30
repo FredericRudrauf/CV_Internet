@@ -14,7 +14,7 @@
       return { data: null }
     },
     mounted() {
-      fetch('${import.meta.env.BASE_URL}data/apropos.json')
+      fetch(import.meta.env.BASE_URL + 'data/apropos.json')
         .then(res => res.json())
         .then(json => { this.data = json });
     }

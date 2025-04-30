@@ -26,7 +26,7 @@
       }
     },
     mounted() {
-      fetch('${import.meta.env.BASE_URL}data/experiences_comptable.json')
+      fetch(import.meta.env.BASE_URL + 'data/experiences_comptable.json')
         .then(res => res.json())
         .then(json => { this.experiences = json });
     }

@@ -16,7 +16,7 @@
       return { lettres: [] }
     },
     mounted() {
-      fetch('${import.meta.env.BASE_URL}data/recommandations.json')
+      fetch(import.meta.env.BASE_URL + 'data/recommandations.json')
         .then(res => res.json())
         .then(json => { this.lettres = json });
     }

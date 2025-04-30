@@ -22,7 +22,7 @@ export default {
     }
   },
   mounted() {
-    fetch('${import.meta.env.BASE_URL}data/formations.json')
+    fetch(import.meta.env.BASE_URL + 'data/formations.json')
       .then(res => res.json())
       .then(json => { this.formations = json });
   }
