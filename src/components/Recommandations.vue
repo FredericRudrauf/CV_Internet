@@ -4,7 +4,7 @@
         <div class="card p-3 shadow-sm">
           <h5>{{ lettre.entreprise }}</h5>
           <p>{{ lettre.description }}</p>
-          <a :href="lettre.fichier" class="btn btn-outline-secondary" download>Télécharger la lettre</a>
+          <a :href="lettre.fichierUrl" class="btn btn-outline-secondary" download>Télécharger la lettre</a>
         </div>
       </div>
     </div>
@@ -18,7 +18,13 @@
     mounted() {
       fetch(import.meta.env.BASE_URL + 'data/recommandations.json')
         .then(res => res.json())
-        .then(json => { this.lettres = json });
+        .then(json => {
+          // Ajouter le chemin complet de l'image à chaque formation
+          this.lettres = json.map(lettre => ({
+            ...lettre,
+            fichierUrl: import.meta.env.BASE_URL + lettre.fichier
+          }));
+        });
     }
   }
   </script>
