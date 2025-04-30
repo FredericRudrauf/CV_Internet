@@ -14,7 +14,7 @@
       return { data: null }
     },
     mounted() {
-      fetch('/src/data/apropos.json')
+      fetch('/data/apropos.json')
         .then(res => res.json())
         .then(json => { this.data = json });
     }

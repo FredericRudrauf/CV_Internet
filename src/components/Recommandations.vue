@@ -16,7 +16,7 @@
       return { lettres: [] }
     },
     mounted() {
-      fetch('/src/data/recommandations.json')
+      fetch('/data/recommandations.json')
         .then(res => res.json())
         .then(json => { this.lettres = json });
     }

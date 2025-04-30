@@ -43,7 +43,7 @@
       return { data: null }
     },
     mounted() {
-      fetch('/src/data/competences.json')
+      fetch('/data/competences.json')
         .then(res => res.json())
         .then(json => { this.data = json });
     }

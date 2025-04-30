@@ -24,7 +24,7 @@ export default {
     }
   },
   mounted() {
-    fetch('/src/data/experiences.json')
+    fetch('/data/experiences.json')
       .then(res => res.json())
       .then(json => { this.experiences = json });
   }

@@ -1,0 +1,20 @@
+[
+  {
+    "poste": "Technicien développeur et intégrateur",
+    "entreprise": "Université Sherbrooke",
+    "debut": "2022-10",
+    "fin": "en cours",
+    "logo": "img/sherbrooke.png",
+    "lien": "https://www.usherbrooke.ca",
+    "description": "Développement de plugins Moodle, support plateforme, maintenance serveurs RedHat."
+  },
+  {
+    "poste": "Technicien informatique",
+    "entreprise": "Musée de la Civilisation",
+    "debut": "2022-04",
+    "fin": "2022-10",
+    "logo": "img/musee.png",
+    "lien": "https://www.mcq.org",
+    "description": "Support niveau 1/2 pour environnements Windows, Mac et Ubuntu."
+  }
+]

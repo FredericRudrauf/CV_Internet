@@ -20,7 +20,7 @@ export default {
     }
   },
   mounted() {
-    fetch('/src/data/loisirs.json')
+    fetch('/data/loisirs.json')
       .then(res => res.json())
       .then(json => { this.loisirs = json });
   }

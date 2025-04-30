@@ -26,7 +26,7 @@
       }
     },
     mounted() {
-      fetch('/src/data/experiences_comptable.json')
+      fetch('/data/experiences_comptable.json')
         .then(res => res.json())
         .then(json => { this.experiences = json });
     }

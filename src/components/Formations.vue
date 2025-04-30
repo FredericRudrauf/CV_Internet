@@ -22,7 +22,7 @@ export default {
     }
   },
   mounted() {
-    fetch('/src/data/formations.json')
+    fetch('/data/formations.json')
       .then(res => res.json())
       .then(json => { this.formations = json });
   }

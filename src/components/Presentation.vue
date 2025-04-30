@@ -18,7 +18,7 @@ export default {
     }
   },
   mounted() {
-    fetch('/src/data/presentation.json')
+    fetch('/data/presentation.json')
       .then(res => res.json())
       .then(json => { this.data = json });
   }
