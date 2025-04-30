@@ -3,7 +3,7 @@
     <div class="col-md-6 mb-3" v-for="exp in experiences" :key="exp.poste">
       <div class="card p-3 shadow-sm">
         <div class="d-flex align-items-center mb-2">
-          <img :src="exp.logo" alt="Logo" width="50" class="me-3">
+          <img :src="photoUrl" alt="Logo" width="50" class="me-3">
           <div>
             <h5 class="mb-0">{{ exp.poste }}</h5>
             <small>{{ exp.entreprise }} ({{ exp.debut }} - {{ exp.fin }})</small>
@@ -21,6 +21,11 @@ export default {
   data() {
     return {
       experiences: []
+    }
+  },
+  computed: {
+    photoUrl() {
+      return this.data ? import.meta.env.BASE_URL + this.exp.logo : '';
     }
   },
   mounted() {

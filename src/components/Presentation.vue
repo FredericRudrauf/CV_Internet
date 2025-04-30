@@ -1,6 +1,6 @@
 <template>
   <div v-if="data" class="card p-4 shadow-sm">
-    <img :src="data.photo" class="rounded-circle mb-3" alt="Photo de Frédéric" width="150">
+    <img :src="photoUrl" class="rounded-circle mb-3" alt="Photo de Frédéric" width="150">
     <h3>{{ data.nom }}</h3>
     <p><strong>Adresse :</strong> {{ data.adresse }}</p>
     <p><strong>Téléphone :</strong> {{ data.telephone }}</p>
@@ -15,6 +15,11 @@ export default {
   data() {
     return {
       data: null
+    }
+  },
+  computed: {
+    photoUrl() {
+      return this.data ? import.meta.env.BASE_URL + this.data.photo : '';
     }
   },
   mounted() {

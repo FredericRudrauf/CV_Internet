@@ -3,7 +3,7 @@
       <div class="col-12 col-md-6 col-lg-4" v-for="exp in experiences" :key="exp.poste + exp.entreprise">
         <div class="card p-3 shadow-sm card-experience">
           <div class="d-flex align-items-center mb-2">
-            <img :src="exp.logo" alt="Logo" class="logo-experience me-3">
+            <img :src="exp.logoUrl" alt="Logo" class="logo-experience me-3">
             <div>
               <h5 class="mb-0">{{ exp.entreprise }}</h5>
               <p><small>{{ exp.lieu }} - {{ exp.contrat }}</small></p>
@@ -28,7 +28,13 @@
     mounted() {
       fetch(import.meta.env.BASE_URL + 'data/experiences_informatique.json')
         .then(res => res.json())
-        .then(json => { this.experiences = json });
+        .then(json => {
+          // Ajouter le chemin complet de l'image à chaque expérience
+          this.experiences = json.map(exp => ({
+            ...exp,
+            logoUrl: import.meta.env.BASE_URL + exp.logo
+          }));
+        });
     }
   }
   </script>

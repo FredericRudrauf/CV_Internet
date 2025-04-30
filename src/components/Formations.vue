@@ -2,7 +2,7 @@
   <div class="row g-4">
     <div class="col-12 col-md-6 col-lg-4" v-for="item in formations" :key="item.titre">
       <div class="card card-formation p-3 shadow-sm text-center">
-        <img :src="item.logo" class="img-formation mb-3" :alt="item.ecole">
+        <img :src="item.logoUrl" class="img-formation mb-3" :alt="item.ecole">        
         <div class="card-body">
           <h5 class="card-title">{{ item.titre }} ({{ item.annee }})</h5>
           <h6 class="card-subtitle mb-2 text-muted">{{ item.ecole }}</h6>
@@ -20,12 +20,18 @@ export default {
     return {
       formations: []
     }
-  },
+  },  
   mounted() {
     fetch(import.meta.env.BASE_URL + 'data/formations.json')
-      .then(res => res.json())
-      .then(json => { this.formations = json });
-  }
+        .then(res => res.json())
+        .then(json => {
+          // Ajouter le chemin complet de l'image à chaque formation
+          this.formations = json.map(item => ({
+            ...item,
+            logoUrl: import.meta.env.BASE_URL + item.logo
+          }));
+        });
+    }
 }
 </script>
 
