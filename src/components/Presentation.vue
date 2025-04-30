@@ -18,7 +18,7 @@ export default {
     }
   },
   mounted() {
-    fetch('/data/presentation.json')
+    fetch('${import.meta.env.BASE_URL}data/presentation.json')
       .then(res => res.json())
       .then(json => { this.data = json });
   }

@@ -26,7 +26,7 @@
       }
     },
     mounted() {
-      fetch('/data/experiences_informatique.json')
+      fetch('${import.meta.env.BASE_URL}data/experiences_informatique.json')
         .then(res => res.json())
         .then(json => { this.experiences = json });
     }

@@ -43,7 +43,7 @@
       return { data: null }
     },
     mounted() {
-      fetch('/data/competences.json')
+      fetch('${import.meta.env.BASE_URL}data/competences.json')
         .then(res => res.json())
         .then(json => { this.data = json });
     }

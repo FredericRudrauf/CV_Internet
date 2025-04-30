@@ -24,7 +24,7 @@ export default {
     }
   },
   mounted() {
-    fetch('/data/experiences.json')
+    fetch('${import.meta.env.BASE_URL}data/experiences.json')
       .then(res => res.json())
       .then(json => { this.experiences = json });
   }
