@@ -1,0 +1,27 @@
+[
+  {
+    "nom": "Course à pied",
+    "description": "Pratique régulière de la course à pied, y compris semi-marathon.",
+    "image": "img/Course.jpg"
+  },
+  {
+    "nom": "Football",
+    "description": "Football en club depuis l'âge de 11 ans. Joueur et capitaine au sein de l'AS Lichtenberg pendant 12 ans. Joueur de l'AS Herrlisheim pendant 2 ans. Futsal avec les amis ou collègues de travail. Ancien abonné au Racing Club de Strasbourg.",
+    "image": "img/RCSA.webp"
+  },
+  {
+    "nom": "Jeux de société",
+    "description": "Passionné de jeux de société comme 7 Wonders, Azul, Les Aventuriers du rail, Colt Express, la Route des Épices, etc...",
+    "image": "img/7wonders.jpg"
+  },
+  {
+    "nom": "Voyages",
+    "description": "Mon enfance en Afrique du Nord (Maroc et Algérie) m'a donné le gout du voyage et de la découverte. Voici quelques pays visités (et pour certains habités) : Nouvelle Calédonie, Irlande, Angleterre (Londres), Allemagne, Suisse, Finlande, Hongrie, Roumanie, Italie, Canada, Etats-Unis",
+    "image": "img/voyage.jpg"
+  },
+  {
+    "nom": "Lecture",
+    "description": "Lecteur assidu de romans de Fantasy, de Sciences Fiction et de Roman historique. Mes auteurs préférés sont : JRR Tolkien, Jack Vance, Franck Herbert, Ken Follett et Alexandre Dumas (pour n'en citer que 5).",
+    "image": "img/le-seigneur-des-anneaux.webp"
+  }
+]
