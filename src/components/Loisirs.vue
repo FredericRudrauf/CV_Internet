@@ -49,8 +49,8 @@ export default {
 
 .img-loisir {
   width: 100%;
-  height: 200px;
-  object-fit: scale-down;
+  height: 230px;
+  object-fit: cover;
   border-radius: 8px;
 }
 </style>
