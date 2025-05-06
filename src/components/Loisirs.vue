@@ -49,7 +49,7 @@ export default {
 
 .img-loisir {
   width: 100%;
-  height: 200px;
+  height: 230px;
   object-fit: cover;
   border-radius: 8px;
 }

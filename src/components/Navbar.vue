@@ -18,6 +18,9 @@
           <li class="nav-item">
             <router-link class="nav-link" to="/formations">Formations</router-link>
           </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/competences">Compétences</router-link>
+          </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="expDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Expériences
@@ -26,9 +29,6 @@
               <li><router-link class="dropdown-item" to="/experiences-informatique">Informatique</router-link></li>
               <li><router-link class="dropdown-item" to="/experiences-comptable">Comptable</router-link></li>
             </ul>
-          </li>
-          <li class="nav-item">
-            <router-link class="nav-link" to="/competences">Compétences</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/loisirs">Loisirs</router-link>

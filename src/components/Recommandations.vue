@@ -1,6 +1,6 @@
 <template>
     <div class="row">
-      <div class="col-md-6 mb-3" v-for="lettre in lettres" :key="lettre.fichier">
+      <div class="col-md-6 mb-3" v-for="lettre in lettres" :key="lettre.fichierUrl">
         <div class="card p-3 shadow-sm">
           <h5>{{ lettre.entreprise }}</h5>
           <p>{{ lettre.description }}</p>
