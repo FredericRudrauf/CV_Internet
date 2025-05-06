@@ -4,7 +4,7 @@
     <h3>{{ data.nom }}</h3>
     <p><strong>Adresse :</strong> {{ data.adresse }}</p>
     <p><strong>Téléphone :</strong> {{ data.telephone }}</p>
-    <p><strong>Email :</strong> {{ data.email }}</p>
+    <p><strong>Email :</strong> <a :href="'mailto:' + data.email">{{ data.email }}</a></p>
     <p><strong>LinkedIn :</strong> <a :href="data.linkedin" target="_blank">{{ data.linkedin }}</a></p>
     <p>{{ data.description }}</p>
   </div>
