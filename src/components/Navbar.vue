@@ -16,7 +16,7 @@
             <router-link class="nav-link" to="/presentation">Présentation</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/formations">Formation</router-link>
+            <router-link class="nav-link" to="/formations">Formations</router-link>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="expDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -34,7 +34,7 @@
             <router-link class="nav-link" to="/loisirs">Loisirs</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/recommandations">Lettres de recommandations</router-link>
+            <router-link class="nav-link" to="/recommandations">Lettres de recommandation</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/apropos">À propos</router-link>
