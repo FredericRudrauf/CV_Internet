@@ -1,7 +1,11 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm">
     <div class="container-fluid">
-      <router-link class="navbar-brand fw-bold" to="/presentation">Mon CV</router-link>
+      <!-- Logo cliquable vers /presentation -->
+      <router-link class="navbar-brand d-flex align-items-center" to="/presentation">
+        <img src="/LogoFR_trans.png" alt="Logo" style="height: 32px;" class="me-2" />
+        <span class="fw-bold">Mon CV</span>
+      </router-link>
 
       <!-- Bouton hamburger -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -16,7 +20,7 @@
             <router-link class="nav-link" to="/presentation">Présentation</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/formations">Formation</router-link>
+            <router-link class="nav-link" to="/formations">Formations</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/competences">Compétences</router-link>
@@ -34,7 +38,7 @@
             <router-link class="nav-link" to="/loisirs">Loisirs</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/recommandations">Lettres de recommandations</router-link>
+            <router-link class="nav-link" to="/recommandations">Lettres de recommandation</router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/apropos">À propos</router-link>

@@ -34,6 +34,15 @@
         <h5>Types d'entreprises</h5>
         <ul><li v-for="item in data.comptabilite.entreprises" :key="item">{{ item }}</li></ul>
       </div>
+
+      <h3 class="mt-4">Langues</h3>
+      <p></p>
+      <div v-if="data">
+        <h5>Anglais</h5>
+        <ul><li v-for="item in data.langues.anglais" :key="item">{{ item }}</li></ul>
+  
+      </div>
+
     </div>
   </template>
   
