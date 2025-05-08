@@ -8,6 +8,9 @@
     <p><strong>LinkedIn :</strong> <a :href="data.linkedin" target="_blank">{{ data.linkedin }}</a></p>
     <p>{{ description }}</p>
   </div>
+  <div v-else>
+    Chargement des données...
+  </div>
 </template>
 
 <script>
@@ -17,27 +20,28 @@ export default {
   setup() {
     const data = ref(null);
     const userCountry = ref(null);
+    const loadingError = ref(null); // Pour gérer les erreurs de chargement
 
     const photoUrl = computed(() => {
       return data.value ? import.meta.env.BASE_URL + data.value.photo : '';
     });
 
     const description = computed(() => {
-      if (data.value) {
+      if (data.value && data.value.description) {
         return userCountry.value === 'CA' ? data.value.description.CA : data.value.description.autre;
       }
       return '';
     });
 
     const adresse = computed(() => {
-      if (data.value) {
+      if (data.value && data.value.adresse) {
         return userCountry.value === 'CA' ? data.value.adresse.CA : data.value.adresse.autre;
       }
       return '';
     });
 
     const telephone = computed(() => {
-      if (data.value) {
+      if (data.value && data.value.telephone) {
         return userCountry.value === 'CA' ? data.value.telephone.CA : data.value.telephone.autre;
       }
       return '';
@@ -45,19 +49,27 @@ export default {
 
     onMounted(async () => {
       try {
-        const response = await fetch('https://ipinfo.io/json'); // Utilisation de ipinfo.io (vous pouvez en choisir un autre)
-        const result = await response.json();
-        userCountry.value = result.country; // Récupère le code du pays (ex: "CA", "FR", etc.)
-      } catch (error) {
-        console.error("Erreur lors de la récupération de la localisation :", error);
-        userCountry.value = 'autre'; // En cas d'erreur, on utilise la description par défaut
+        const geoResponse = await fetch('https://ipinfo.io/json');
+        const geoResult = await geoResponse.json();
+        userCountry.value = geoResult.country;
+      } catch (geoError) {
+        console.error("Erreur de géolocalisation :", geoError);
+        userCountry.value = 'autre'; // Fallback
       }
 
-      const presentationResponse = await fetch(import.meta.env.BASE_URL + 'data/presentation.json');
-      data.value = await presentationResponse.json();
+      try {
+        const presentationResponse = await fetch(import.meta.env.BASE_URL + 'data/presentation.json');
+        if (!presentationResponse.ok) {
+          throw new Error(`HTTP error! status: ${presentationResponse.status}`);
+        }
+        data.value = await presentationResponse.json();
+      } catch (presentationError) {
+        console.error("Erreur de récupération des données :", presentationError);
+        loadingError.value = "Impossible de charger les données.";
+      }
     });
 
-    return { data, photoUrl, description, userCountry, adresse, telephone };
+    return { data, photoUrl, description, userCountry, adresse, telephone, loadingError };
   }
 }
 </script>
