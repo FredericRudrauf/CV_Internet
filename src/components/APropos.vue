@@ -14,7 +14,7 @@
       <p>
         Vous pouvez télécharger mon CV complet au format PDF en cliquant sur le lien ci-dessous :
       </p>
-      <a href="/docs/CV_Frederic.pdf" target="_blank" class="btn btn-primary" download>
+      <a href="docs/CV_Frederic.pdf" target="_blank" class="btn btn-primary" download>
         📄 Télécharger le CV (PDF)
       </a>
     </div>
