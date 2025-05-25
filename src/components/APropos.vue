@@ -14,7 +14,7 @@
       <p>
         Vous pouvez télécharger mon CV complet au format PDF en cliquant sur le lien ci-dessous :
       </p>
-      <a href="docs/CV_Frederic.pdf" target="_blank" class="btn btn-primary" download>
+      <a :href="fichierUrl" target="_blank" class="btn btn-primary" download>
         📄 Télécharger le CV (PDF)
       </a>
     </div>
@@ -23,12 +23,18 @@
   <script>
   export default {
     data() {
-      return { data: null }
+      return {
+        data: null,
+        fichierUrl: ''
+      }
     },
     mounted() {
       fetch(import.meta.env.BASE_URL + 'data/apropos.json')
         .then(res => res.json())
-        .then(json => { this.data = json });
+        .then(json => {
+          this.data = json;
+          this.fichierUrl = import.meta.env.BASE_URL + 'docs/CV_Frederic.pdf';
+        });
     }
   }
   </script>
