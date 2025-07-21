@@ -9,7 +9,7 @@
       "competences": ["Comptabilité générale", "Fiscalité", "Reporting"],
       "logo": "img/Wagner.jpg",
       "lien": "https://wagnerassocies.fr/",
-      "description": "Sous la responsabilité d’experts comptables associés, responsable de 40 sociétés (jusqu’à 20 salariés) de tous les secteurs d’activités (artisanat, commerce, services, bâtiment), en charge de : - Saisir toutes les opérations comptables – Gérer la fiscalité - Réaliser les tableaux de bord - Réviser les comptes, établir les comptes annuels et la liasse fiscale."
+      "description": "Sous la responsabilité d’experts comptables associés, gestion de 40 sociétés (jusqu’à 20 salariés) de tous les secteurs d’activités (artisanat, commerce, services, bâtiment), en charge de : - Saisir toutes les opérations comptables – Gérer la fiscalité - Réaliser des tableaux de bord - Réviser les comptes, établir les comptes annuels et la liasse fiscale."
     },
     {
       "poste": "Collaborateur comptable",
@@ -45,7 +45,7 @@
       "competences": ["Comptabilité générale", "Fiscalité", "Reporting", "Trésorerie"],
       "logo": "img/LK.png",
       "lien": "https://www.l-k.fr/",
-      "description": "Rattaché au Directeur Général, sur un périmètre société mère et filiales (jusqu’à 3), en interface avec la Direction commerciale, la Production, la Direction Informatique, les commissaires aux comptes, l’administration fiscale, les banques, les fournisseurs et les clients, en charge de : - Effectuer les reportings financiers pour le comité de direction - Réaliser les différentes phases de consolidation - Préparer les écritures d’inventaires pour les arrêtés annuels - Gérer la fiscalité (taxes, crédit d’impôt et impôt sur les sociétés) et les déclarations sociales - Etablir les bulletins de paie."
+      "description": "Rattaché au Directeur Général, sur un périmètre société mère et filiales (jusqu’à 3), en interface avec la Production, les commissaires aux comptes, l’administration fiscale, les banques, les fournisseurs et les clients, en charge de : - Tenir la comptabilité générale - Effectuer les reportings financiers pour le comité de direction - Réaliser les différentes phases de consolidation - Préparer les écritures d’inventaires pour les arrêtés annuels - Gérer la fiscalité (taxes, crédit d’impôt et impôt sur les sociétés) et les déclarations sociales - Etablir les bulletins de paie."
     },
     {
       "poste": "Comptable unique",
@@ -69,7 +69,7 @@
       "competences": ["Comptabilité financière", "Fiscalité", "Reporting", "Consolidation", "SURFI"],
       "logo": "img/BNP.svg",
       "lien": "https://leasingsolutions.bnpparibas.fr/",
-      "description": "Comptable banque au sein d'une filiale de service de reporting en charge de la consolidation, la fiscalité et les liasses fiscales pour la Banque de France et le groupe BNP PARIBAS."
+      "description": "Comptable banque au sein d'un service de reporting, en charge de la consolidation, la fiscalité et la réalisation des liasses fiscales pour le groupe BNP PARIBAS et la production de rapports SURFI pour la Banque de France."
     },
     {
       "poste": "Collaborateur comptable",
