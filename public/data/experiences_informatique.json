@@ -5,11 +5,11 @@
       "lieu": "Sherbrooke, Québec",
       "contrat": "CDI",
       "debut": "10/2022",
-      "fin": "en cours",
+      "fin": "08/2025",
       "competences": ["Moodle", "RedHat", "PHP", "Python", "MySQL", "Support utilisateur Niveau 2/3"],
       "logo": "img/udes.png",
       "lien": "https://www.usherbrooke.ca/",
-      "description": "Support et développement de plugins Moodle, support de plateforme, maintenance serveurs RedHat. Soutien et développements Python pour le service des Bibliothèques et des Archives, divers travaux de recherches et synthèses sur les données des bibliothèques."
+      "description": "Support et développement de plugins Moodle, support de plateforme, maintenance serveurs RedHat. Soutien et développements Python pour le service des Bibliothèques et des Archives de l'Université, divers travaux de recherches et synthèses sur les données des bibliothèques."
     },
     {
       "poste": "Technicien informatique",
